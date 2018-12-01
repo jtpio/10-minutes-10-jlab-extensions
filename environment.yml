@@ -1,0 +1,10 @@
+name: jlab-extensions-demo
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab=0.35
+  - git
+  - python=3.7
+  - pip:
+    - nbdime==1.0.3
+    - sidecar==0.2.0

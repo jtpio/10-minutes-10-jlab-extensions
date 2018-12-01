@@ -1,0 +1,12 @@
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 --no-build
+jupyter labextension install @jupyterlab/git@0.4 --no-build
+jupyter labextension install @jupyterlab/github@0.10 --no-build
+jupyter labextension install nbdime-jupyterlab@0.6 --no-build
+jupyter labextension install @jupyterlab/toc@0.6 --no-build
+jupyter labextension install jupyterlab-python-file@0.2 --no-build
+jupyter labextension install jupyterlab-python-bytecode@0.3 --no-build
+jupyter labextension install jupyterlab-kernelspy@0.4 --no-build
+jupyter labextension install @jupyter-widgets/jupyterlab-sidecar@0.3.0 --no-build
+jupyter labextension install jupyterlab-drawio@0.5 --no-build
+
+jupyter lab build
