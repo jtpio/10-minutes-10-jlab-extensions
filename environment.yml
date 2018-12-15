@@ -4,9 +4,9 @@ channels:
 dependencies:
   - jupyterlab=0.35
   - git
+  - nbdime=1.0.3
   - python=3.7
   - pip:
     - jupyterlab-git==0.5.0
     - ipyrest==0.1.3
-    - nbdime==1.0.3
     - sidecar==0.2.0
