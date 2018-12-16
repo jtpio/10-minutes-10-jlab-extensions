@@ -9,6 +9,7 @@ jupyter labextension install jupyterlab-kernelspy@0.4 --no-build
 jupyter labextension install @jupyter-widgets/jupyterlab-sidecar@0.3.0 --no-build
 jupyter labextension install jupyterlab-drawio@0.5 --no-build
 jupyter labextension install jupyter-leaflet@0.9.1 --no-build
+jupyter labextension install @parente/jupyterlab-quickopen@0.1.0 --no-build
 
 jupyter serverextension enable --py jupyterlab_git
 
